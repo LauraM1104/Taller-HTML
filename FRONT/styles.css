@@ -1,0 +1,74 @@
+
+body {
+    font: "Concert One", sans-serif;
+    
+}
+
+a {
+    color: var(--bs-green);
+    /* Asegúrate de que esta variable esté definida */
+}
+
+h1 {
+    color: #124118;
+    /* Cambia el color de H1 */
+    text-align: center;
+    /* Centra el texto */
+    font-size: 40px;
+    /* Tamaño de fuente */
+    font-weight: bold;
+    /* Negrita */
+    font-family:  "Concert One", sans-serif;
+}
+
+p {
+    font-family:  'Segoe UI';
+    /* Verifica que 'Segoe UI' esté disponible */
+    font-size: 18px;
+    /* Tamaño de fuente para los párrafos */
+}
+
+h2 {
+    color: #124118;
+    /* Cambia el color de H2 */
+    text-align: center;
+    /* Centra el texto */
+    font-size: 20px;
+    /* Aumenta el tamaño de fuente a 20px para mejor visibilidad */
+    font-family:  "Concert One", sans-serif;
+}
+
+li {
+    color: black;
+    /* Cambia el color de los elementos de lista */
+    text-align: center;
+    /* Alinea el texto a la izquierda */
+}
+
+.text-justified {
+    text-align: justify;
+}
+
+.table {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+    padding: 40px;
+    text-align: center;
+
+}
+
+
+.table th {
+    background-color: #124118;
+    color: #f2f2f2;
+    /* Color del texto de la cabecera */
+    font-weight: bold;
+    /* Negrita */
+}
